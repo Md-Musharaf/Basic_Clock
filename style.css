@@ -1,0 +1,41 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #212121;
+    color: #fff;
+}
+
+.center {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#clock {
+    color: black;
+    font-weight: bolder;
+    font-size: 100px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px 40px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+#date {
+    color: black;
+    font-weight: bold;
+    font-size: 67px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px 50px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+#banner {
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+    font-size: 67px;
+    padding: 20px 50px;
+    margin-top: 10px;
+}
